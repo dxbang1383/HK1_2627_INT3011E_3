@@ -80,8 +80,11 @@ def convert_to_clause(n):
     return clauses
 
 if __name__ == "__main__":
-    n = 10
+    n = 9
     clauses = convert_to_clause(n)
+
+    print(f"So luong menh de la : {len(clauses)}")
+    print(clauses)
 
     solver = Glucose3()
 
